@@ -10,7 +10,7 @@ npx skills add craigandrews/skills
 
 ## Available skills
 
-- `python-venv` in `skills/venv/SKILL.md`
+- `python-venv` in `skills/python-venv/SKILL.md`
 
 ## Contributing
 
