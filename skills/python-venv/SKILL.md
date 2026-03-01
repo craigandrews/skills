@@ -9,10 +9,16 @@ description: Manage project-local Python virtual environments with venv.
 Manage project-local Python 3 virtual environments under `.venv` with clear, repeatable steps.
 
 ## When to use
+- Any task in a Python project, including running scripts, tests, or tools
+- Repos containing `pyproject.toml`, `requirements.txt`, `setup.py`, `setup.cfg`, `Pipfile`, `poetry.lock`, or `*.py`
 - Setting up a fresh Python environment
 - Installing or updating dependencies
 - Exporting or locking dependencies
 - Repairing or recreating a broken environment
+
+## Activation guidance
+- If a task involves executing Python code or tooling, ensure `.venv` exists and is activated first.
+- If `.venv` is missing, create it and install dependencies before running the task.
 
 ## Default conventions
 - Environment path: `.venv`
